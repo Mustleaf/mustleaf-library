@@ -30,12 +30,16 @@
 nav .navbar-nav a {
     display: inline-block;
     font-size: 1rem;
+    font-weight: 200;
     margin: 0 1.2rem;
     color: rgb(0, 0, 0);
 }
 
 nav .navbar-logo a {
-    font-size: rem;
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+    font-weight: 600;
 }
 
 nav .navbar-boost a{
@@ -65,7 +69,6 @@ nav .navbar-boost a:hover{
 nav .navbar-nav a:hover{
     color: black;
 } 
-
 .hero-section {
     background-color: black;
 }
