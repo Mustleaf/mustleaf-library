@@ -8,12 +8,14 @@
 
 /* container */
 .section__margin {
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 .section__padding {
-    padding: 5px 6rem;
+    padding: 5px 4rem;
 }
 
+
+/* navbar section */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -68,40 +70,38 @@ nav .navbar-boost a:hover{
 
 nav .navbar-nav a:hover{
     color: black;
-} 
+}
+
+
+/* hero section */
+
 .hero-section {
-    background-color: black;
+    /* background-color: black; */
+    margin-top: 8.5rem;
 }
 
 .hero-section_content {
     display: flex;
-    margin: auto;
+    justify-content: center;
 }
 
 .hero-section_content h1 {
-    color: #ffffff;
+    color: #000000;
     line-height: 4rem;
     font-weight: 200;
-    font-size: 46px;
-    align-items: center;
-    justify-content: center;
+    font-size: 55px;
     text-align: center;
-    padding: 0 10rem;
 }  
 
 .hero-section_content span {
-    text-decoration: underline;
     font-weight: 600;
 }
 
 .hero-section_image {
     display: flex;
-    margin: auto;
-}
-
-.hero-section_image img {
-    align-items: center;
     justify-content: center;
-
-    padding: 0 26.5rem;
 }
+
+
+/* about section */
+
