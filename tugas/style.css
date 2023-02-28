@@ -11,7 +11,7 @@
     margin-top: 8rem;
 }
 .section__padding {
-    padding: 5px 4rem;
+    padding: 5px 3rem;
 }
 
 
@@ -20,9 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px 7%;
     /* border-bottom: 1px solid #000000; */
     position: fixed;
+    height: 4rem;
+    background: white;
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +52,7 @@ nav .navbar-boost a{
 
 nav .navbar-boost button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 7rem;
+    width: 7.5rem;
     height: 2.5rem;
     border-radius: 5px;
     cursor: pointer;
@@ -89,7 +90,7 @@ nav .navbar-nav a:hover{
     color: #000000;
     line-height: 4rem;
     font-weight: 200;
-    font-size: 55px;
+    font-size: 64px;
     text-align: center;
 }  
 
@@ -97,11 +98,83 @@ nav .navbar-nav a:hover{
     font-weight: 600;
 }
 
+.hero-section_content-text {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-section_image {
     display: flex;
     justify-content: center;
 }
 
+/* designs section */
+.design-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-section h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.design-section p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.design-section span {
+    font-weight: 600;
+}
+
+.design-section_image {
+    display: flex;
+    justify-content: center;
+}
+
+.design-section_image img{
+    width: 100%;
+    height: 100%;
+}
 
 /* about section */
 
+.about-section {
+    height: 50rem;
+    background: #f5f5f5;
+    box-shadow: 0 0 0 100vmax #f5f5f5;
+    clip-path: inset(0 -100vmax);
+}
+
+.about-section_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.about-section_content h1 {
+    font-size: 58px;
+    width: 600px;
+}
+
+.about-section_content p {
+    width: 800px;
+    margin: 2.5rem 0 0 9rem;
+    font-size: 22px;
+    line-height: 2rem;
+}
+
+.about-section_content button {
+    width: 9.5rem;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+    height: 2.8rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
