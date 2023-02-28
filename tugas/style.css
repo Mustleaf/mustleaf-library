@@ -77,22 +77,33 @@ nav .navbar-nav a:hover{
 /* hero section */
 
 .hero-section {
-    /* background-color: black; */
-    margin-top: 8.5rem;
+    background: black;
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0 -100vmax);
+    margin-top: 4rem;
 }
 
 .hero-section_content {
+    flex-direction: column;
     display: flex;
     justify-content: center;
 }
 
 .hero-section_content h1 {
-    color: #000000;
-    line-height: 4rem;
-    font-weight: 200;
-    font-size: 64px;
+    color: white;
+    line-height: 5rem;
+    font-weight: 500;
+    font-size: 75px;
     text-align: center;
-}  
+}
+
+.hero-section_content p {
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2px;
+}
 
 .hero-section_content span {
     font-weight: 600;
@@ -103,9 +114,31 @@ nav .navbar-nav a:hover{
     justify-content: center;
 }
 
+.hero-button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.hero-button button{
+    color: black;
+    cursor: pointer;
+    font-size: 26px;
+    border: none;
+    border-radius: 55px;
+    background-color: white;
+    width: 13rem;
+    height: 3.7rem;
+}
+
 .hero-section_image {
     display: flex;
     justify-content: center;
+}
+
+.hero-section_image img{
+    width: 60%;
+    height: 60%;
 }
 
 /* designs section */
