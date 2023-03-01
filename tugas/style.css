@@ -221,7 +221,7 @@ nav .navbar-nav a:hover::after{
 
 
 .design-section_content-title h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-align: center;
 }
@@ -245,7 +245,7 @@ nav .navbar-nav a:hover::after{
 
 .design-section_content-image img {
     padding: 0 1.5rem;
-    height: 70%;
+    height: 80%;
     width: auto;
 }   
 
