@@ -69,8 +69,22 @@ nav .navbar-boost a:hover{
     
 }
 
+
 nav .navbar-nav a:hover{
-    color: black;
+    color:  rgb(0, 0, 0);
+}
+
+nav .navbar-nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid rgb(0, 0, 0);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+nav .navbar-nav a:hover::after{
+    transform: scaleX(0.5);
 }
 
 
