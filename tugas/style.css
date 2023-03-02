@@ -32,7 +32,7 @@
 
 nav .navbar-nav a {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 200;
     margin: 0 1.2rem;
     color: rgb(0, 0, 0);
@@ -61,24 +61,25 @@ nav .navbar-boost button {
     font-size: 1rem;
     background-color: rgb(32, 54, 255);
     border: none;
+
 }
 
-nav .navbar-boost a:hover{
-    background-color: rgb(0, 0, 0);
+nav .navbar-boost button:hover{
+    background-color: rgb(37, 106, 253);
     color: #ffffff;
     
 }
 
 
 nav .navbar-nav a:hover{
-    color:  rgb(0, 0, 0);
+    color: rgb(32, 54, 255);
 }
 
 nav .navbar-nav a::after{
     content: '';
     display: block;
     padding-bottom: 0.3rem;
-    border-bottom: 0.1rem solid rgb(0, 0, 0);
+    border-bottom: 0.1rem solid rgb(32, 54, 255);;
     transform: scaleX(0);
     transition: 0.2s linear;
 }
@@ -143,6 +144,11 @@ nav .navbar-nav a:hover::after{
     background-color: black;
     width: 13rem;
     height: 3.7rem;
+}
+
+.hero-button button:hover {
+    background-color: rgb(26, 26, 26);
+    color:#ffffff;
 }
 
 .hero-section_image {
@@ -212,7 +218,7 @@ nav .navbar-nav a:hover::after{
 .design-section_content {
     display: flex;
     flex-direction: column;
-    margin: 3rem 0;
+    margin: 4em 0;
 }
 
 .design-section_content-title {
@@ -247,7 +253,57 @@ nav .navbar-nav a:hover::after{
     padding: 0 1.5rem;
     height: 80%;
     width: auto;
-}   
+} 
+
+/* support section */
+
+.support-section {
+    display: flex;
+    background: #ebeff2;
+    box-shadow: 0 0 0 100vmax #ebeff2;
+    clip-path: inset(0 -100vmax);
+}
+
+.support-section_container {
+    margin: 4rem 0;
+}
+
+.support-section_container-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fully-support {
+    display: flex;
+}
+
+.support-text {
+    padding: 0 4rem;
+}
+
+.support-text h1{
+    font-size: 42px;
+}
+
+.support-text p{
+    font-size: 20px;
+}
+
+.support-text button{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 55px;
+    background-color: black;
+    width: 8.7rem;
+    height: 2.8rem;
+}
+
+.fully-support img {
+    height: 80%;
+    width: 80%;
+}
 
 /* about section */
 
