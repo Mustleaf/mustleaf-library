@@ -275,6 +275,7 @@ nav .navbar-nav a:hover::after{
 
 .fully-support {
     display: flex;
+    margin: 2rem 0;
 }
 
 .support-text {
@@ -291,18 +292,19 @@ nav .navbar-nav a:hover::after{
 
 .support-text button{
     color: white;
+    margin-top: 10px;
     cursor: pointer;
     font-size: 20px;
     border: none;
     border-radius: 55px;
     background-color: black;
-    width: 8.7rem;
-    height: 2.8rem;
+    width: 8.9rem;
+    height: 2.9rem;
 }
 
 .fully-support img {
-    height: 80%;
-    width: 80%;
+    height: 50%;
+    width: 50%;
 }
 
 /* about section */
@@ -341,4 +343,29 @@ nav .navbar-nav a:hover::after{
     font-size: 18px;
     background-color: black;
     color: white;
+}
+
+/* footer */
+
+.footer-section {
+    background: black;
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0 -100vmax);
+}   
+
+.footer-section_content {
+    display: flex;
+    margin: 4rem 0;
+}
+
+.footer-text {
+    margin: 0 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text a{
+    text-decoration: underline rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+    padding-top: 10px;
 }
